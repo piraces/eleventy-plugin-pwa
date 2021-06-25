@@ -5,7 +5,6 @@
     "main": ".eleventy.js",
     "type": "module",
     "scripts": {
-        "prepare": "npm run build",
         "prepublishOnly": "npm test",
         "version": "git add -A src",
         "postversion": "git push && git push --tags",
