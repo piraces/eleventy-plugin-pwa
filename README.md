@@ -3,7 +3,6 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 [![eleventy](https://img.shields.io/badge/staticgen-eleventy-%23707070.svg?style=flat-square)](https://11ty.io)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![codecov](https://img.shields.io/codecov/c/github/piraces/eleventy-plugin-pwa.svg?style=flat-square)](https://codecov.io/gh/okitavera/eleventy-plugin-pwa)
 
 > An [Eleventy](https://11ty.io) plugin to generate service worker.
 > Using Google Workbox to generate service-worker.js based on your `dir.output`.
@@ -15,7 +14,7 @@ Since (at this moment) `eleventy` doesn't have any API to do a things after buil
 ## Installation
 
 ```bash
-npm i eleventy-plugin-pwa
+npm i @piraces/eleventy-plugin-pwa
 ```
 
 #### Add to eleventy config file
@@ -50,7 +49,7 @@ For example :
 
 ```js
 // overwriting destination file and more
-const pluginPWA = require("eleventy-plugin-pwa");
+const pluginPWA = require("@piraces/eleventy-plugin-pwa");
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginPWA, {
     swDest: "./build/sw.js",
