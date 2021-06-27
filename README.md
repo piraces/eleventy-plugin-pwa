@@ -3,13 +3,14 @@
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 [![eleventy](https://img.shields.io/badge/staticgen-eleventy-%23707070.svg?style=flat-square)](https://11ty.io)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![codecov](https://img.shields.io/codecov/c/github/piraces/eleventy-plugin-pwa.svg?style=flat-square)](https://codecov.io/gh/piraces/eleventy-plugin-pwa)
 
 > An [Eleventy](https://11ty.io) plugin to generate service worker.
 > Using Google Workbox to generate service-worker.js based on your `dir.output`.
 
 ### Note
 
-Since (at this moment) `eleventy` doesn't have any API to do a things after build process, this plugin are using monkey patch method to wrap into the `finish` function in order to run workbox properly.
+This is a fork of the original work of @okitavera in [eleventy-plugin-pwa](https://github.com/okitavera/eleventy-plugin-pwa), providing up-to-date support with the latest versions of [Workbox](https://developers.google.com/web/tools/workbox/guides/get-started), [Eleventy](https://11ty.io) and other related dependencies (in order to use the latest features and advancements of these tools).
 
 ## Installation
 

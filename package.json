@@ -32,7 +32,6 @@
     },
     "homepage": "https://github.com/piraces/eleventy-plugin-pwa#readme",
     "dependencies": {
-        "shimmer": "^1.2.1",
         "workbox-build": "^6.1.5"
     },
     "devDependencies": {
