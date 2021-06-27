@@ -3,7 +3,6 @@
     "version": "1.1.1",
     "description": "An Eleventy plugin to generate service worker for PWA using Google Workbox",
     "main": ".eleventy.js",
-    "type": "module",
     "scripts": {
         "prepublishOnly": "npm test",
         "version": "git add -A src",
