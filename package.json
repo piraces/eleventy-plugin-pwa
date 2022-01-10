@@ -34,7 +34,7 @@
         "workbox-build": "^6.1.5"
     },
     "devDependencies": {
-        "@11ty/eleventy": "^0.12.1",
+        "@11ty/eleventy": "^1.0.0",
         "codecov": "^3.8.2",
         "jest": "^27.0.5",
         "rimraf": "^3.0.2"
