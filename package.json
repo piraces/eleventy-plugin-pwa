@@ -1,6 +1,6 @@
 {
     "name": "@piraces/eleventy-plugin-pwa",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "An Eleventy plugin to generate service worker for PWA using Google Workbox",
     "main": ".eleventy.js",
     "scripts": {
@@ -31,12 +31,12 @@
     },
     "homepage": "https://github.com/piraces/eleventy-plugin-pwa#readme",
     "dependencies": {
-        "workbox-build": "^6.1.5"
+        "workbox-build": "^6.4.2"
     },
     "devDependencies": {
-        "@11ty/eleventy": "^0.12.1",
-        "codecov": "^3.8.2",
-        "jest": "^27.0.5",
+        "@11ty/eleventy": "^1.0.0",
+        "codecov": "^3.8.3",
+        "jest": "^27.4.7",
         "rimraf": "^3.0.2"
     },
     "jest": {
